@@ -1,24 +1,36 @@
-# Medical-Speech-Recognition
+# Complete Project: Speech Processing and Model Fine-Tuning
 
-Complete Project is split into 3 ipynb notebooks
+This project is organized into three Jupyter notebooks, each covering specific aspects of the workflow:
 
-1. main.ipynb
+## Notebooks Overview
 
-Contains data preprocessing, data analysis and data visualization. Followed by working of baseline Whisper base and Wev2Vec base models.
+### 1. `main.ipynb`
+- **Contents**:
+  - Data Preprocessing
+  - Data Analysis and Visualization
+  - Baseline models: Whisper Base and Wav2Vec Base
 
-2. Whisper-FineTune.ipynb
+---
 
-Contains fine tuned whisper base model. This model is uploaded to Hugging Face at https://huggingface.co/shantanu007/whisper-base-shantanu
+### 2. `Whisper-FineTune.ipynb`
+- **Contents**:
+  - Fine-tuned Whisper Base model
+  - Model uploaded to Hugging Face: [Whisper Base Shantanu](https://huggingface.co/shantanu007/whisper-base-shantanu)
+  - Live demo available within the notebook
 
-Further live demo is also present in this notebook
+---
 
-3. Wev2Vec-FineTune.ipynb
+### 3. `Wav2Vec-FineTune.ipynb`
+- **Contents**:
+  - Fine-tuned Wav2Vec Base model
 
-Contains fine tuned model for wev2vec base model.
-
+---
 
 ## Requirements
 
+Ensure you have the following dependencies installed before running the notebooks:
+
+```plaintext
 pandas
 numpy==1.24
 matplotlib
@@ -27,10 +39,10 @@ soundfile
 librosa
 openai-whisper
 datasets
-librosa
 torchaudio
 gradio
 accelerate>=0.26.0
 evaluate
 jiwer
-datasets
+
+
